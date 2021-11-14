@@ -3,8 +3,8 @@ import json
 
 import requests
 
-from j_work import JWork
-from errors import MDataError, MSystemError
+from for_nalog.errors import MSystemError, MDataError
+from for_nalog.j_work import JWork
 
 
 class NalogRuPython:

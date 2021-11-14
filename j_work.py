@@ -1,7 +1,7 @@
 import json
 import random
 
-from my_data import MyDataMass, MyData
+from for_nalog.my_data import MyDataMass, MyData
 
 
 class JWork:
@@ -9,7 +9,7 @@ class JWork:
     def __init__(self):
 
         self.data = MyDataMass()  # Кастом массив данных
-        self.end_use = 1  # На каком количестве использований остановиться
+        self.end_use = 90  # На каком количестве использований остановиться
         self.last_use = None  # номер последнего использованного набора данных
 
     # Сохранить текущий массив
